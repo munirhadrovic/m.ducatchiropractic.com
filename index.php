@@ -79,7 +79,7 @@
                                 console.log("nije nigdje uslo default ")
                                 var prostordugme=document.getElementById('findUS');
                                 var dugme= document.createElement('a');
-                                dugme.setAttribute('class', "callfind");
+                                dugme.setAttribute('class', "callfind findUS");
                                 dugme.setAttribute('href',"geo:0,0?q=1110 W. Lake Cook Road Suite 375 Buffalo Grove, IL 60089");
                                 dugme.innerHTML="<img src='images/location.png' alt='location' style='float:left;'><p style='margin-top: 14px;'>Find US</p>";
                                 prostordugme.appendChild(dugme);
